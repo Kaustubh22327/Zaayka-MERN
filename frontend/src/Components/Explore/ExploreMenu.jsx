@@ -7,8 +7,9 @@ const ExploreMenu = ({ category, setCategory }) => {
     <div className="explore-menu" id="explore-menu">
       <h1>Explore our menu</h1>
       <p className="explore-text">
-        Choose from a diverse menu featuring a delectable array of dishes
-        crafted with the finest ingredation and elvate your dining experience with us .
+        Choose from a diverse menu of Zaayka featuring a delectable array of
+        dishes crafted with the finest ingredation and elvate your dining
+        experience with us .
       </p>
       <div className="explore-list">
         {menu_list.map((item, index) => {
